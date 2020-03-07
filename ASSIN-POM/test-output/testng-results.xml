@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="47056" started-at="2020-03-07T17:36:16 IST" finished-at="2020-03-07T17:37:03 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="47056" started-at="2020-03-07T17:36:16 IST" finished-at="2020-03-07T17:37:03 IST">
+      <class name="TEST.Testng_chrome">
+        <test-method status="PASS" signature="launch_chrome()[pri:0, instance:TEST.Testng_chrome@3a5ed7a6]" name="launch_chrome" is-config="true" duration-ms="16339" started-at="2020-03-07T17:36:16 IST" finished-at="2020-03-07T17:36:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_chrome -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TEST.Testng_chrome@3a5ed7a6]" name="test" duration-ms="30633" started-at="2020-03-07T17:36:33 IST" data-provider="data" finished-at="2020-03-07T17:37:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[844978@cognizant.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["844978"]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7095143164@Sa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- TEST.Testng_chrome -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
